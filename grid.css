@@ -1,0 +1,80 @@
+html, body {
+    background: black;
+    margin: 0;
+    padding: 0;
+    place-items: center;
+    min-height: 100vh;
+} 
+
+main{
+    margin: 100px;
+    width: 50%;
+    margin-left: 350px;
+}
+
+main div {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: 
+      "a a a a b b"
+      "a a a a b b"
+      "a a a a b b"
+      "c c c d d d"
+      "c c c e e e"
+      ;
+    gap: 15px;
+}
+
+.item-a{
+    background-color: orangered;
+    grid-area: a;
+    grid-template-rows: 100px;
+}
+
+.item-b{
+    background-color: orange;
+    grid-area: b;
+}
+
+.item-c{
+    background-color: rgb(73, 156, 73);
+    grid-area: c;
+    grid-template-columns: 5px;
+}
+
+.item-d{
+    background-color: rgb(63, 142, 207);
+    grid-area: d;
+    grid-template-rows: 9px; 
+}
+
+.item-e{
+    background-color:  rgb(63, 142, 207);
+    grid-area: e;
+}
+
+
+a{
+    font-family: 'Lexend Deca';
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(3, 3, 24);
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 20px;
+    background-color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flex-box{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 500;
+    color: antiquewhite;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}

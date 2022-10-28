@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: hsl(0, 0%, 95%);
+}
+
+
+
+main .main-box {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 95vh;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    height: 70%;
+    width: 50%;
+    margin-top: 100px;
+    border: 1px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.sedan h3 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 35px;
+    letter-spacing: 1.5px;
+
+}
+
+.sedan p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    text-align: left;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.sedan button {
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 70%;
+    margin-top: 100px;
+    border: 1px;
+    width: 50%;
+}
+
+.suv h3 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+.suv p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    text-align: left;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+
+}
+
+.suv button {
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    height: 70%;
+    width: 50%;
+    margin-top: 100px;
+    border: 1px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.luxury h3 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+}
+
+.luxury p {
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    text-align: left;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.luxury button {
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 70%;
+    text-align: center;
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 900px) {
+    main .main-box {
+    margin: 1rem auto;
+    min-width: 90%;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
+  
+  .sedan, .suv, .luxury{
+    width: 70%;
+    height: auto;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+    
+    button{
+      text-align: center;
+      margin: 0 auto;
+      width: 70%;
+  
+    }
+  
+  }
+
+  @media only screen and (max-width: 375px) {
+    h2 {
+      font-size: 1.7rem;
+    }
+      main {
+      margin: 0 auto;
+      width: 90%;
+      height: 100%;
+    }
+      
+      main .main-box {
+        flex-wrap: wrap;
+      margin: 3rem auto;
+      width: 100% ;
+    }
+    svg {
+      width: 80%;
+    }
+    .sedan, .suv, .luxury {
+      
+      width: 90% ;
+      height: auto;
+      padding: 10px;
+    }
+    
+      button {
+        text-align: center;
+        margin: 0 auto;
+        width: 70%;
+      }
+    }
+
+
+    a{
+        font-family: 'Lexend Deca';
+        font-size: 20px;
+        font-weight:300;
+        color: rgb(34, 34, 152);
+        text-decoration: none;
+        box-sizing: border-box;
+        border: 2px solid blue;
+        border-radius: 20px;
+        background-color: beige;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .grid-task{
+        font-family: cursive;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+    }
