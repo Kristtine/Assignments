@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(125deg, rgb(7, 98, 121), rgb(158, 162, 241));
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    font-family:cursive;
+}
+
+span{
+    font-size: 100px;
+    text-emphasis: centre;
+}
