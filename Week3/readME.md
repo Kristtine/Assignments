@@ -1,3 +1,7 @@
-Replit URL:  https://Responsive-Form.thelightchris.repl.co   (for finished work )
+View my Work Here:
 
-https://replit.com/@thelightchris/Responsive-Form#index.html   (For code)
+Replit URL: 
+
+Code Preview: https://replit.com/@thelightchris/Responsive-Form#index.html
+
+Output Preview:  https://Responsive-Form.thelightchris.repl.co  
