@@ -1,3 +1,3 @@
-Replit URL:  https://my-portfolio.thelightchris.repl.co/   (for finished work )
+Replit URL:  https://Responsive-Form.thelightchris.repl.co   (for finished work )
 
-https://replit.com/@thelightchris/My-Portfolio#index.html   (For code)
+https://replit.com/@thelightchris/Responsive-Form#index.html   (For code)
