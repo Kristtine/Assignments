@@ -1,10 +1,16 @@
-#Hello
+Hello
 
-##You can access my Portfolio Sample here:
+You can access my Portfolio Sample here:
 
-Replit URL: https://My-Portfolio.thelightchris.repl.co (for output preview)
-
-
+Replit URL: 
 
 
-https://replit.com/@thelightchris/My-Portfolio#index.html (for code)
+Code Preview: https://replit.com/@thelightchris/My-Portfolio#index.html
+
+
+Output Preview: https://My-Portfolio.thelightchris.repl.co
+
+
+
+
+
