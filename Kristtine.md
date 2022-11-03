@@ -28,7 +28,7 @@ The UI/UX designer actually thinks up a design for the developer to bring to lif
 I believe in zero limitations. You want it? Count the costs and go get it. 
 
 
-## Other Common Github Profile Sections
+## More about me!
 
 🧠 I'm currently learning FullStack Web Development.
 
